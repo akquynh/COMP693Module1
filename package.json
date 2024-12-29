@@ -1,0 +1,22 @@
+{
+  "name": "module-1",
+  "version": "1.0.0",
+  "description": "react module 1",
+  "main": "index.js",
+  "scripts": {
+    "compile": "babel src --presets @babel/react src --out-dir public",
+    "watch": "babel src --presets @babel/react src --out-dir public --watch --verbose",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.26.4",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-react": "^7.26.3",
+    "nodemon": "^3.1.9"
+  }
+}
